@@ -1,4 +1,6 @@
-# Filebox With Only Bootstrap
+# Filebox with Only Bootstrap
+
+In this project, we'll practice using Bootstrap.
 
 ## Setup
 
