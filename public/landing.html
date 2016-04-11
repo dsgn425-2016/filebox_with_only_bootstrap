@@ -28,27 +28,84 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-dropbox" aria-hidden="true"></i>
+              Filebox
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <p class="navbar-btn">
+                <a href="#" class="btn btn-link">Download the app</a>
+              </p>
+              </li>
+
+              <li>
+                <p class="navbar-btn">
+                  <a href="#" class="btn btn-link">Sign in</a>
+                </p>
+              </li>
+
+              <li>
+                <p class="navbar-btn">
+                  <a href="#" class="btn btn-default">
+                    Try Filebox business
+                  </a>
+                </p>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container padding-inside-top-md padding-inside-bottom-md">
     <div class="row Hero">
       <div class="col-md-offset-1 col-md-10">
         <img src="assets/images/hero.png" alt="">
       </div>
     </div>
-    <div class="row Works-The-Way">
+
+    <div class="row Works-The-Way padding-inside-top-sm">
       <div class="col-md-offset-1 col-md-4">
-        <h1>Filebox works the way you do</h1>
-        <p>Get to all your files from anywhere, on any device, and share them with anyone.</p>
+        <h1>
+          Filebox works the way you do
+        </h1>
+
+        <p>
+          Get to all your files from anywhere, on any device, and share them with anyone.
+        </p>
       </div>
+
       <div class="col-md-offset-2 col-md-4">
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1" class="sr-only">Full name</label>
             <input type="Fullname" class="form-control" id="exampleInputEmail1" placeholder="Full name">
           </div>
+
           <div class="form-group">
             <label for="exampleInputEmail1" class="sr-only">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
+
           <div class="form-group">
             <label for="exampleInputPassword1" class="sr-only">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -78,7 +135,7 @@
       </div>
     </div>
 
-    <div class="row Docs">
+    <div class="row Docs padding-inside-top-lg">
       <div class="col-md-offset-1 col-md-4">
         <h2>
           Take your docs anywhere
@@ -93,45 +150,54 @@
         <img src="assets/images/docs-anywhere.png" class="img-responsive" alt="">
       </div>
     </div>
-    <div class="row Vids">
+
+    <div class="row Vids padding-inside-top-lg">
       <div class="col-md-offset-1 col-md-4">
         <img src="assets/images/send-videos-quickly.png" class="img-responsive" alt="">
       </div>
+
       <div class="col-md-offset-2 col-md-4">
         <h2>Send videos quickly</h2>
+
         <p>
           Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.
         </p>
       </div>
     </div>
-    <div class="row Photos">
+
+    <div class="row Photos padding-inside-top-lg">
       <div class="col-md-offset-1 col-md-4">
         <h2>
           Keep your photos safe
         </h2>
+
         <p>
           Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.
         </p>
       </div>
+
       <div class="col-md-offset-2 col-md-4">
         <img src="assets/images/keep-your-photos-safe.png" class="img-responsive" alt="">
       </div>
     </div>
-    <div class="row Slides">
+
+    <div class="row Slides padding-inside-top-lg">
       <div class="col-md-offset-1 col-md-4">
         <img src="assets/images/work-on-slides-together.png" class="img-responsive" alt="">
       </div>
+
       <div class="col-md-offset-2 col-md-4">
         <h2>
           Work on slides together
         </h2>
+
         <p>
           Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.
         </p>
       </div>
     </div>
 
-    <div class="row Files">
+    <div class="row Files padding-inside-top-lg">
       <div class="col-md-offset-1 col-md-4">
 
         <h2>
@@ -148,7 +214,7 @@
       </div>
     </div>
 
-    <div class="row Get-Started">
+    <div class="row Get-Started padding-inside-top-md padding-inside-bottom-lg">
       <div class="col-md-offset-4 col-md-4">
         <h2>
           Get Started Now
@@ -156,13 +222,21 @@
 
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1" class="sr-only">Full name</label>
+            <label for="exampleInputEmail1" class="sr-only">
+              Full name
+            </label>
+
             <input type="Fullname" class="form-control" id="exampleInputEmail1" placeholder="Full name">
           </div>
+
           <div class="form-group">
-            <label for="exampleInputEmail1" class="sr-only">Email address</label>
+            <label for="exampleInputEmail1" class="sr-only">
+              Email address
+            </label>
+
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
+
           <div class="form-group">
             <label for="exampleInputPassword1" class="sr-only">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -191,11 +265,14 @@
         </form>
       </div>
     </div>
-    <div class="row Footer-row">
-      <div class="col-md-2">
-        <h3>Filebox</h3>
 
-        <ul>
+    <div class="row Footer-row padding-inside-top-md padding-inside-bottom-lg">
+      <div class="col-md-2">
+        <h3>
+          Filebox
+        </h3>
+
+        <ul class="list-unstyled">
           <li>
             Desktop app
           </li>
@@ -214,9 +291,11 @@
         </ul>
       </div>
       <div class="col-md-2">
-        <h3>Company</h3>
+        <h3>
+          Company
+        </h3>
 
-        <ul>
+        <ul class="list-unstyled">
           <li>
             About us
           </li>
@@ -236,9 +315,11 @@
       </div>
 
       <div class="col-md-2">
-        <h3>Support</h3>
+        <h3>
+          Support
+        </h3>
 
-        <ul>
+        <ul class="list-unstyled">
           <li>
             Help Center
           </li>
@@ -258,9 +339,11 @@
       </div>
 
       <div class="col-md-2">
-        <h3>Community</h3>
+        <h3>
+          Community
+        </h3>
 
-        <ul>
+        <ul class="list-unstyled">
           <li>
             Developers
           </li>
@@ -278,7 +361,7 @@
       <div class="col-md-2">
         <h3>Connect</h3>
 
-        <ul>
+        <ul class="list-unstyled">
           <li>
             Twitter
           </li>
@@ -298,9 +381,11 @@
       </div>
 
       <div class="col-md-2">
-        <h3>Products</h3>
+        <h3>
+          Products
+        </h3>
 
-        <ul>
+        <ul class="list-unstyled">
           <li>
             Pro
           </li>
@@ -320,8 +405,5 @@
       </div>
     </div>
   </div>
-
-
-
 </body>
 </html>
