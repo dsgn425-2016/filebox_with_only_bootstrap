@@ -6,13 +6,13 @@
   <meta charset="utf-8">
 
   <!-- Connect to Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
   <!-- Connect to Font Awesome CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Connect to our own additional CSS -->
-  <!-- <link rel="stylesheet" href="assets/additional_styles.css"> -->
+  <link rel="stylesheet" href="assets/additional_styles.css"
 
   <!-- Connect to jQuery (required before Bootstrap Javascript) -->
   <script src="assets/jquery-2.2.2.min.js"></script>
@@ -26,8 +26,184 @@
 
   <!-- Connect to Google Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <h1>Good luck!</h1>
-</body>
-</html>
+
+
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <i class="fa fa-dropbox" aria-hidden="true"></i>
+      </button>
+      <a class="navbar-brand" href="#">Filebox</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Download the app</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#" class="btn btn-default">Try Filebox Business</a></li>
+
+      </ul>
+    </li>
+  </ul>
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row Hero">
+    <div class="col-sm-offset-1 col-sm-10">
+      <img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/hero.png" class="img-responsive"/>
+    </div>
+  </div>
+  <div class="row works">
+    <div class="col-sm-offset-1 col-sm-4">
+      <h2>File box works the way you do</h2>
+      <p>
+        Get to all your files from anywhere, on any device, and share them with anyone.
+      </p>
+
+    </div>
+    <div class="col-sm-offset-2 col-sm-4">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputfullname" class="sr-only">Full name</label>
+          <input type="fullname" class="form-control" id="exampleInputEmail1" placeholder="Full name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="sr-only">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> I agree to Filebox terms
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Sign up for free</button>
+        <button type="submit" class="btn btn-primary btn-block">Sign up with Google</button>
+      </form>
+    </div>
+  </div>
+  <div class="row Take your docs anywhere">
+    <div class="col-sm-offset-1 col-sm-4">
+      <h2>Take your docs anywhere</h2>
+      <p>
+        Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.
+      </p>
+    </div>
+    <div class="col-sm-offset-2 col-sm-4">
+      <img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/docs-anywhere.png" class="img-responsive"/></div>
+    </div>
+    <div class="row Send videos quickly">
+      <div class="col-sm-offset-1 col-sm-4">
+        <img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/send-videos-quickly.png" class="img-responsive"/></div>
+        <div class="col-sm-offset-2 col-sm-4">
+          <h2>Send videos quickly</h2>
+          <p>
+            Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.
+          </p>
+        </div>
+      </div>
+      <div class="row Keep your photos safe">
+        <div class="col-sm-offset-1 col-sm-4">
+          <h2>Keep your photos safe</h2>
+          <p>
+            Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.
+          </p>
+        </div>
+        <div class="col-sm-offset-2 col-sm-4">
+          <img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/keep-your-photos-safe.png" class="img-responsive"/></div>
+        </div>
+        <div class="row Work on slides">
+          <div class="col-sm-offset-1 col-sm-4">
+            <img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/work-on-slides-together.png" class="img-responsive"/></div>
+            <div class="col-sm-offset-2 col-sm-4">
+              <h2>Work on slides together</h2>
+              <p>
+                Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.
+              </p></div>
+            </div>
+            <div class="row Never lose">
+              <div class="col-sm-offset-1 col-sm-4">
+                <h2>Never lose a file again</h2>
+                <p>
+                  Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.
+                </p>
+              </div>
+              <div class="col-sm-offset-2 col-sm-4"><img src="/Users/obinnaosuji/Downloads/filebox_with_only_bootstrap/public/assets/images/never-lose-a-file-again.png" class="img-responsive"/></div>
+            </div>
+            <div class="row get started now">
+              <div class="col-md-offset-4 col-md-4">
+                Get started now
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="sr-only">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1"class="sr-only">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> I agree to Filebox terms
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">Sign up for free</button>
+                  <button type="submit" class="btn btn-primary btn-block">Sign up with Google</button>
+                </form>
+              </div>
+            </div>
+            <div class="row footer">
+
+              <div class="col-md-2">
+                  Filebox
+                  <li class="list-unstyled">Desktop app</li>
+
+                </div>
+                <div class="col-md-2">
+                  Company
+
+                </div>
+                <div class="col-md-2">1
+                  Support
+                </div>
+                <div class="col-md-2">
+                  Community
+                </div>
+                <div class="col-md-2">
+                  Connect
+                </div>
+                <div class="col-md-2">
+                  Products
+                </div>
+
+            </div>
+          </div>
+
+
+
+
+
+        </body>
+        </html>
