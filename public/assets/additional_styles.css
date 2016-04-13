@@ -2,6 +2,8 @@
 
 body {
   font-family: "Open Sans";
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
 }
 
 /* My standard vertical spacing classes */
@@ -80,4 +82,68 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+.filebox-button{
+  color: #FFFFFF;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  width:100%;
+}
+
+.navbar-white{
+  background-color: #FFF;
+}
+.navbar a {
+  color: rgb(0,126,229) !important;
+}
+
+.nav-try-button{
+  color:rgb(0, 126, 229) !important;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+.footer{
+  background-color: FBFBFB;
+}
+
+.filebox-brand{
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.dropbox-icon{
+  font-size: 1.33em;
+  vertical-align: -15%;
+  margin-right:4px;
+}
+
+.h2-center{
+  text-align: center;
+}
+
+.get-started-now{
+  background-color:white;
+  margin-left: -60px;
+  margin-right: -60px;
+}
+
+h4 {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+li {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
 }
