@@ -6757,4 +6757,8 @@ button.close {
     display: none !important;
   }
 }
+
+body {
+  padding-top: 70px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
