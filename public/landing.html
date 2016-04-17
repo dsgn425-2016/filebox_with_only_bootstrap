@@ -28,57 +28,64 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-10 col-lg-offset-1">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">
+             <i class="fa fa-lg fa-fw fa-dropbox"></i>
+             Filebox
+           </a>
+         </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  <div class="container padding-inside-top-md padding-inside-bottom-md">
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           <ul class="nav navbar-nav navbar-right">
+             <li>
+               <p class="navbar-btn">
+                 <a href="#" class="btn btn-link">
+                   Download the app
+                 </a>
+               </p>
+             </li>
+
+             <li>
+               <p class="navbar-btn">
+                 <a href="#" class="btn btn-link">
+                   Sign in
+                 </a>
+               </p>
+             </li>
+
+             <li>
+               <p class="navbar-btn">
+                 <a href="#" class="btn btn-default">
+                   Try Filebox Business
+                 </a>
+               </p>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+ </nav>
+  <div class="main-content container padding-inside-top-md padding-inside-bottom-md">
     <div class="row">
-      <div class="col-md-offset-1 col-md-10">
+      <div class="col-lg-offset-1 col-lg-10">
         <img src="assets/images/hero.png" alt="" />
       </div>
     </div>
     <div class="row">
-      <div class="col-md-offset-1 col-md-4">
+      <div class="col-lg-offset-1 col-lg-4">
         <h1>
           Filebox works the way you do
         </h1>
@@ -86,7 +93,7 @@
           Get to all your files from anywhere, on any device, and share them with anyone.
         </p>
       </div>
-      <div class="col-md-offset-2 col-md-4">
+      <div class="col-lg-offset-2 col-lg-4">
         <form>
           <div class="form-group">
             <input type="name" class="form-control" id="exampleInputfullname1" placeholder="Full name">
@@ -115,7 +122,7 @@
         </div>
       </div>
       <div class="row padding-inside-top-lg">
-        <div class="col-md-offset-1 col-md-4">
+        <div class="col-lg-offset-1 col-lg-4">
           <h1>
             Take your docs anywhere
           </h1>
@@ -123,15 +130,15 @@
             Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.
           </p>
         </div>
-        <div class="col-md-offset-2 col-md-4">
+        <div class="col-lg-offset-2 col-lg-4">
           <img src="assets/images/docs-anywhere.png" alt="" />
         </div>
       </div>
       <div class="row padding-inside-top-lg">
-        <div class="col-md-offset-1 col-md-4">
+        <div class="col-lg-offset-1 col-lg-4">
           <img src="assets/images/send-videos-quickly.png" alt="" />
         </div>
-        <div class="col-md-offset-2 col-md-4">
+        <div class="col-lg-offset-2 col-lg-4">
           <h1>
             Send videos quickly
           </h1>
@@ -141,7 +148,7 @@
         </div>
       </div>
       <div class="row padding-inside-top-lg">
-        <div class="col-md-offset-1 col-md-4">
+        <div class="col-lg-offset-1 col-lg-4">
           <h1>
             Keep your photos safe
           </h1>
@@ -149,15 +156,15 @@
             Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.
           </p>
         </div>
-        <div class="col-md-offset-2 col-md-4">
+        <div class="col-lg-offset-2 col-lg-4">
           <img src="assets/images/keep-your-photos-safe.png" alt="" />
         </div>
       </div>
       <div class="row padding-inside-top-lg">
-        <div class="col-md-offset-1 col-md-4">
+        <div class="col-lg-offset-1 col-lg-4">
           <img src="assets/images/work-on-slides-together.png" alt="" />
         </div>
-        <div class="col-md-offset-2 col-md-4">
+        <div class="col-lg-offset-2 col-lg-4">
           <h1>
             Work on slides together
           </h1>
@@ -167,7 +174,7 @@
         </div>
       </div>
       <div class="row padding-inside-top-lg">
-        <div class="col-md-offset-1 col-md-4">
+        <div class="col-lg-offset-1 col-lg-4">
           <h1>
             Never lose a file again
           </h1>
@@ -175,12 +182,12 @@
             Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.
           </p>
         </div>
-        <div class="col-md-offset-2 col-md-4">
+        <div class="col-lg-offset-2 col-lg-4">
           <img src="assets/images/never-lose-a-file-again.png" alt="" />
         </div>
       </div>
-      <div class="row padding-inside-top-md padding-inside-bottom-lg">
-        <div class="col-md-offset-4 col-md-4">
+      <div class="get-started-now container-fluid padding-inside-top-md padding-inside-bottom-lg">
+        <div class="col-lg-offset-4 col-lg-4">
           <form>
             <h2 class="text-center">
               Get Started Now
@@ -211,8 +218,9 @@
             </form>
           </div>
         </div>
-        <div class="row padding-inside-top-md padding-inside-bottom-lg">
-          <div class="col-md-2">
+        <footer class="container padding-inside-top-md padding-inside-bottom-lg">
+        <div class="row">
+          <div class="col-lg-2">
             <h4>
               Filebox
             </h4>
@@ -223,7 +231,7 @@
               <li>Security</li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2">
             <h4>
               Company
             </h4>
@@ -234,7 +242,7 @@
               <li>Blog</li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2">
             <h4>
               Support
             </h4>
@@ -245,7 +253,7 @@
               <li>Privacy & terms</li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2">
             <h4>
               Community
             </h4>
@@ -255,7 +263,7 @@
               <li>Forum</li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2">
             <h4>
               Connect
             </h4>
@@ -266,7 +274,7 @@
               <li>YouTube</li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-lg-2">
             <h4>
               Products
             </h4>
@@ -278,5 +286,6 @@
           </div>
         </div>
       </div>
+    </footer>
     </body>
     </html>
