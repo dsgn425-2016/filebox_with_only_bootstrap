@@ -2,10 +2,71 @@
 
 body {
   font-family: "Open Sans";
+  background-color: rgba(251,251,251,1);
+  color: rgb(68,68,68);
 }
 
-/* My standard vertical spacing classes */
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+}
 
+.padding-inside-top-md {
+    padding-top: 50px;
+}
+
+.padding-inside-bottom-lg {
+    padding-bottom: 150px;
+}
+
+footer h4 {
+    color: rgb(153,153,153);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer li {
+    color: rgb(119,119,119);
+    margin-bottom: 10px;
+}
+
+.navbar a {
+    color: rgb(0,126,229) !important;
+
+}
+
+.navbar-fixed-top {
+  background-color: white;
+}
+/* My standard vertical spacing classes */
+.btn {
+  color: #777;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+    border-color: #e7e7e7;
+
+}
+
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 125%;
+    font-size: 30px;
+  }
+
+
+.btn {
+  color: white;
+}
+
+.get-started-now {
+  background-color: white;
+
+}
 .padding-inside-top-xs {
   padding-top: 10px;
 }
