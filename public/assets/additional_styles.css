@@ -27,6 +27,11 @@ footer h4 {
     margin-bottom: 10px;
 }
 
+footer li {
+    color: rgb(119,119,119);
+    margin-bottom: 10px;
+}
+
 .navbar a {
     color: rgb(0,126,229) !important;
 
