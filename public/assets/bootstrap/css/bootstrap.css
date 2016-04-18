@@ -227,6 +227,7 @@ th {
   }
   img {
     max-width: 100% !important;
+    vertical-align: middle;
   }
   p,
   h2,
