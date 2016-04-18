@@ -4,6 +4,9 @@ body {
   font-family: "Open Sans";
 }
 
+.centered_text{
+  text-align: center;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
